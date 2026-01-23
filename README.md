@@ -1,13 +1,12 @@
 
 
-
-
 # ☕ Dripshot
 > **"Find the perfect cafe that complements your OOTD."**
-> Dripshot is a cafe recommendation service that takes a picture of the outfit you are currently wearing to give you cafe recommendations based on the aesthetic of the outfit! Developed as part of the YBIGTA 25th New-Member Project. 
 
-Please refer to these slides to find out about the creation process and the components of this (Korean)
-[project](https://drive.google.com/file/d/1Wukl8RSSAWe9i8TCER0tJx4dkLYRmkU_/view?usp=drive_link)
+Dripshot is a **cafe recommendation service** that takes a **picture of the outfit** you are currently wearing to give you cafe recommendations based on the aesthetic of the outfit! Developed as part of the YBIGTA 25th New-Member Project. 
+
+Please refer to these slides to find out about the creation process and the components of this 
+[project](https://drive.google.com/file/d/1Wukl8RSSAWe9i8TCER0tJx4dkLYRmkU_/view?usp=drive_link) (Korean)
 
 
 ## 📍 Service Concept
@@ -17,7 +16,9 @@ Please refer to these slides to find out about the creation process and the comp
 
 ## 📍 Project Flow
 
-![Flow](./images/flow.png)
+<div align="center">
+  <img src="./images/flow.png" width="700">
+</div>
 
 1. **Data Scraping**
    * **Fashion Data**: Scraped style images and tags from Musinsa Snap (646,467+ snaps).
@@ -30,7 +31,9 @@ Please refer to these slides to find out about the creation process and the comp
 
 ## 📍 Service Pipeline & Featres
 ### Pipeline
-![pipeline](./images/frontback.png)
+<div align="center">
+  <img src="./images/frontback.png" width="600">
+</div>
 
 ### Features
 ![feature1](./images/feature1.png)
@@ -50,6 +53,7 @@ We implemented a CNN-based classification model to identify fashion styles:
 <div align="center">
   <img src="./images/image2.png" width="450">
 </div>
+
 * **Augmentation**: Applied Gaussian Blurring and Affine transformations to enhance model robustness.
 * **Model Selection**: **EfficientNet-B0** was chosen for its high efficiency and superior accuracy (Top-3 Acc: 73.72%) compared to ResNet. 
 
