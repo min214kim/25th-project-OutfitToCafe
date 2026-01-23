@@ -3,12 +3,7 @@
   <img src="./images/mainimg.png" width="700">
 </div>
 
-
 # ☕ DripShot
-> <div align="center">
->   <img src="./images/logo.png" width="200">
-> </div>
->
 > **"Find the perfect cafe that complements your OOTD (Outfit Of The Day)."**
 
 DripShot is a **cafe recommendation service** that takes a **picture of your outfit** to give you cafe recommendations based on the aesthetic of the outfit! Developed as part of the YBIGTA 25th New-Member Project. 
@@ -43,7 +38,7 @@ Please refer to these slides to find out about the creation process and the comp
 * **Language**: ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) 
 * **Frontend**: ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 * **Backend**: ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
-* **AI/ML**: ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) 
+* **AI/ML**: ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![LLM](https://img.shields.io/badge/LLM-000000?style=for-the-badge&logo=openai&logoColor=white)
 * **Database**: ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
 * **Deployment**: ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 
